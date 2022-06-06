@@ -5,7 +5,27 @@ function Header() {
   return (
     <header className='bg-[#0B1426] h-[72px] flex items-center px-10 md:px-12'>
         <Image src='/images/bighead-4.svg' width={60} height={60} className = 'rounded-full cursor-pointer' />
-        <div className='hidden ml-10 md:flex items-center space-x-6 '>
+        <div className="hidden ml-10 md:flex items-center space-x-6">
+          <a className="header-link group">
+            <span className="span">Home</span>
+          </a>
+          <a className="header-link group">
+            <span className="span">About</span>
+          </a>
+          <a className="header-link group">
+            <span className="span">Roadmap</span>
+          </a>
+          <a className="header-link group">
+            <span className="span">Showcase</span>
+          </a>
+          <a className="header-link group">
+            <span className="span">Team</span>
+          </a>
+          <a className="header-link group">
+            <span className="span">Faq</span>
+          </a>
+        </div>
+        {/* <div className='hidden ml-10 md:flex items-center space-x-6 '>
             <a className='flex items-center space-x-2 cursor-pointer'>Home</a>
         </div>
         <div className='hidden ml-10 md:flex items-center space-x-6 '>
@@ -22,9 +42,9 @@ function Header() {
         </div>
         <div className='hidden ml-10 md:flex items-center space-x-6 '>
             <a className='flex items-center space-x-2 cursor-pointer'>Faq</a>
-        </div>
-        <div>
-        <button className="rounded-full bg-white space-x-2 ml-8 text-[#0B1426] px-4 py-1 hover:bg-slate-400">Connect Wallet</button>
+        </div> */}
+        <div className='flex absolute right-6 '>
+        <button className="ml-auto uppercase border px-4 py-1.5 rounded font-medium tracking-wide hover:bg-white hover:text-black transition duration-200">Connect Wallet</button>
         </div>
 
     </header>

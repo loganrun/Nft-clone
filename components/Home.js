@@ -9,10 +9,14 @@ const Home = () => {
 
         {/* <p className=' flex text-6xl text-center mt-10 ml-20'> Tired of the same old NFTs?</p> */}
 
-        <container className='flex ml-20 mt-10 mr-20'>
-            <box className='box-content h-[40%] w-[40%] mr-20' >
-            <p className=' capitalize flex text-7xl text-center mt-10 ml-20 '> Tired of the same old NFTs?</p>
-                <p className='flex text-2xl text-center '>
+        <container className='grid '>
+            <div className='' >
+            <div className=' h-[50%] w-[100%] mt-10 ml-10 '>
+                <Image src={BigPics} w={40} h={40}/>
+            </div>
+            <p className='capitalize text-2xl text-center pb-5 ml-10'> 
+            Tired of the same old NFTs?</p>
+                <p className='flex text-xl text-left pl-10  '>
                     
 What is Lorem Ipsum?
 
@@ -20,10 +24,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 the leap into electronic typesetting, remaining essentially unchanged.
 
                 </p>
-            </box>
-            <box className='box-content h-[30%] w-[40%]'>
-                <Image src={BigPics} w={40} h={40}/>
-            </box>
+            </div>
+            
 
         </container>
         
@@ -33,3 +35,7 @@ the leap into electronic typesetting, remaining essentially unchanged.
 }
 
 export default Home
+
+//grid-cols-2 gap-20 mt-40 ml-20 mr-20
+// 'flex ml-20 mt-10 mr-20'
+//capitalize flex text-sm text-center mt-10 ml-20 pb-10 pt-10

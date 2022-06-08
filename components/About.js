@@ -5,20 +5,29 @@ import Carousel from './Carousel'
 function About() {
   return (
     <section >
-        <container className='flex-1 justify-center justify-items-center relative mt-10 '>
-            <box> 
+        <container className='grid grid-cols-1 mt-20 ml-10 '>
+            <div className=' h-[100%] w-[100%]  '> 
                 <Carousel/> 
-            </box>
-            <box className='h-[10%] w-[10%]'>
-                <p className='flex text-20 text-center '>
+            </div>
+            <div className=''>
+                <p className='capitalize text-2xl text-center pb-10 pt-10  '>
                     
-                    What is Lorem Ipsum?
-                    
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also 
-                    the leap into electronic typesetting, remaining essentially unchanged.
-                    
+                Welcome To The BigHead Boys Club.
+                
                 </p>
-            </box>
+                    
+                <p className='flex text-xl text-justify whitespace-normal '>     
+                    The BigHead Boys Cub is a private collection of NFTs—unique digital collectibles. 
+                    They are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS.
+
+                    With more than 200+ hand drawn traits, each NFT is unique and comes with a 
+                    membership to an exclusive group of successful investors. Join an ambitious ever-growing community with multiple benefits and utilities.
+                </p>   
+                <div className='pt-10 pl-20'>
+                    <button className="uppercase border px-4 py-1.5 rounded-full font-medium tracking-wide hover:bg-white hover:text-black transition duration-200">Join Our Discord</button>
+                </div>
+                
+            </div>
         </container>
 
     </section>

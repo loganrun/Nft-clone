@@ -9,14 +9,14 @@ const Home = () => {
 
         {/* <p className=' flex text-6xl text-center mt-10 ml-20'> Tired of the same old NFTs?</p> */}
 
-        <container className='grid '>
-            <div className='' >
-            <div className=' h-[50%] w-[100%] mt-10 ml-10 '>
+        <container className='grid grid-cols-1 '> 
+            <div className=' w-full pb-10  '>
                 <Image src={BigPics} w={40} h={40}/>
             </div>
-            <p className='capitalize text-2xl text-center pb-5 ml-10'> 
+            <div className='' >
+            <p className='capitalize text-2xl text-center pb-5'> 
             Tired of the same old NFTs?</p>
-                <p className='flex text-xl text-left pl-10  '>
+                <p className='text-xl text-left pl-5 pr-5 '>
                     
 What is Lorem Ipsum?
 

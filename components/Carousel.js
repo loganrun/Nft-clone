@@ -36,7 +36,7 @@ function Carousel() {
         effect={"cards"}
         grabCursor={true}
         modules={[Pagination, Navigation,Autoplay,EffectCards]}
-        className="mySwiper w-[70%] h-full rounded-lg "
+        className="mySwiper w-full  rounded-lg "
       >
         <SwiperSlide className='bg-white'><Image src={img1}/></SwiperSlide>
         <SwiperSlide className='bg-white'><Image src={img2}/></SwiperSlide>

@@ -16,7 +16,7 @@ const Home: NextPage = () => {
     <Header/>
   <main>
     <Intro/>
-    <About/>
+    <About/> 
     <Showcase/>
 
   </main>
